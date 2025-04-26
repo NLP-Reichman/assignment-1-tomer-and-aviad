@@ -1,0 +1,35 @@
+{
+  "test_preprocess": {
+    "vocab_length": 1804
+  },
+  "test_build_lm": {
+    "english_2_gram_length": 748,
+    "english_3_gram_length": 8239,
+    "french_3_gram_length": 8286,
+    "spanish_3_gram_length": 8469
+  },
+  "test_eval": {
+    "en_on_en": 31.68,
+    "en_on_fr": 66.97,
+    "en_on_tl": 90.47,
+    "en_on_nl": 77.66
+  },
+  "test_match": {
+    "df_shape": [
+      256,
+      4
+    ],
+    "en_en_3": 31.709854214822368,
+    "en_tl_3": 90.55908263348604,
+    "en_nl_3": 77.73532846304191
+  },
+  "test_generate": {
+    "english_2_gram": "I amengget.\u201d",
+    "english_3_gram": "I ame: top rump resh HO3",
+    "english_4_gram": "I Loveryoner rt the via @g",
+    "spanish_2_gram": "Soysibuegajuemajaya lat",
+    "spanish_3_gram": "Soy 12tY1Mm",
+    "french_2_gram": "Je suis:/ttpp ou] @AL\u00e9v llb",
+    "french_3_gram": "Je suisomptif \u00bb, canzon j'm"
+  }
+}
